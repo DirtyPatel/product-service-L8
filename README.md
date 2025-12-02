@@ -1,4 +1,3 @@
-
 # product-service
 
 This is a Rust app that simulates a product catalog. It is meant to be used in conjunction with the store-front and store-admin apps.
