@@ -41,7 +41,7 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
             price: 1799.99,
             description: "Apple M4 chip with 16GB RAM and 512GB SSD".into(),
             image: "/Apple.jpg".into(),
-           ,
+           
         },
     ]
 }
