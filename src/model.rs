@@ -8,9 +8,7 @@ pub struct Product {
     pub price: f32,
     pub description: String,
     pub image: String,
-    pub rating: f32,
-    pub reviews: i32,
-    pub discount: f32,
+    
 }
 
 #[derive(Deserialize)]
@@ -26,9 +24,7 @@ impl Into<WasmProduct> for Product {
             description: self.description,
             price: self.price,
             image: self.image,
-            rating: self.rating,
-            reviews: self.reviews,
-            discount: self.discount,
+            
         }
     }
 }
@@ -41,9 +37,7 @@ impl From<WasmProduct> for Product {
             description: product.description,
             price: product.price,
             image: product.image,
-            rating: product.rating,
-            reviews: product.reviews,
-            discount: product.discount,
+            
         }
     }
 }
