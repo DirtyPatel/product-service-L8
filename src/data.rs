@@ -35,13 +35,6 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
             image: "/Insignia.jpg".into(),
             
         },
-        Product {
-            id: 5,
-            name: "Apple MacBook Pro 14'' (2024) – Space Black".into(),
-            price: 1799.99,
-            description: "Apple M4 chip with 16GB RAM and 512GB SSD".into(),
-            image: "/Apple.jpg".into(),
-           
-        },
+        
     ]
 }
